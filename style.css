@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.cotainerBox{
+    overflow-x: hidden;
+}
+/*navbar*/
+
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar{
+    overflow: visible;
+    background-color: #0a0b27;
+    height: 70px;
+    padding: 0;
+    
+}
+
+.collapse.show{
+background-color:#0a0b27;
+}
+
+.navbar-brand{
+    padding-left: 10px;
+}
+.nav-item{
+    font-weight: 600;
+}
+.dropdown-menu{
+    overflow: visible;
+    position: absolute; /* Allow the dropdown to pop out */
+    z-index: 1000;
+    background-color: red;
+    border-bottom: 3px solid black;
+}
+.dropdown-menu a{
+    color: white;
+}
+
+.navbar-toggler{
+    margin-right: 10px;
+}
+.nav-link {
+    color: white;
+    transition: color 0.5s ease-in-out;
+}
+
+.nav-link:hover{
+    color: red !important;
+    transition: color 0.5s ease-in-out;
+}
+
+/*banner-image*/
+
+@media only screen and (max-width:576){
+    .banner-image{
+        margin-top: 100px;
+    }
+}
+
+/*section1*/
+
+.bg-black{
+    background-color: #000;
+    height: 800px;
+}
+.img-one{
+    width: 185px;
+    height: auto;
+}
+  .text-overlay{
+    color: #fff;
+    position: absolute;
+    font-size: 5rem;
+    font-weight: bolder;
+    font-family:  'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+@media only screen and (max-width:768px){
+   .img-one{
+     width: 90px;
+     height: auto;
+   } 
+
+   #rotatingImage{
+    width:90px;
+    height: auto;
+   }
+
+   .text-overlay{
+    font-size: 3rem;
+    display: flex;
+   }
+}
+
+
+/*section2*/
+
+.bg-white{
+    color: #000;
+    font-size: 21px;
+    font-weight: 600;
+}
+.paragraph{
+    padding: 15%;
+}
+.logo{
+   align-items: center;
+   margin-right: 20%;
+}
+
+/*footer*/
+.footer-part-one{
+    background-color: #fff;
+    padding: 4% 13% 4% 3%;
+    font-size: 0.8rem;
+    color: #000;
+}
+.footer-part-two{
+    background-color: #fff;
+    padding: 3% 2% 4% 2%;
+    font-size: 0.8rem;
+    color: #000;
+}
+.footer-part-three{
+    background-color: #fff;
+    padding: 3% 2% 4% 2%;
+    font-size: 0.8rem;
+    color: #000;
+}
+.click:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
+
+
+
+
+
